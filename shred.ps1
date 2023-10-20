@@ -4,8 +4,8 @@ param(
 
 shred "$shred";
 if ($LASTEXITCODE -ne 0) {
-    rm "$shred";
+    echo "Failed to shred $shred.";
 }
 else {
-    echo "Failed to shred $shred.";
+    rm "$shred";
 }
