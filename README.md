@@ -36,3 +36,5 @@ The following command:
 `./shred [PATH_TO_FILE_TO_SHRED]`
 
 Will run the `shred` command, then `rm` the file if `shred` ran successfully.
+
+The intended purpose of the shred script is to run it on any keyfile used for repeated encryption/decryption.
