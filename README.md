@@ -38,3 +38,7 @@ The following command:
 Will run the `shred` command, then `rm` the file if `shred` ran successfully.
 
 The intended purpose of the shred script is to run it on any keyfile used for repeated encryption/decryption.
+
+## Best Practice
+
+If you use these scripts to encrypt files, it would be a good idea to include them, preferably with the required binaries, alongside the encrypted media. A full Powershell binary isn't necessary as you can run the commands manually very easily; the scripts can serve, at a minimum, as a documentation of the encryption process used with archived media.
