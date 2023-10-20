@@ -2,9 +2,9 @@
 
 This repository contains three simple scripts for encrypting, decrypting, and shredding files in a Linux environment.
 
-The indended usage is for adding encrypted files to add-only WORM media for archival purposes.
+The indended usage is for adding encrypted files to append-only WORM media for archival purposes.
 
-The scripts require powershell, openssl, and the `shred` command.
+The scripts require powershell, `openssl`, and the `shred` command.
 
 These scripts come with absolutely no warranty, or guarantee of their suitability or functionality. Use at your own risk.
 
