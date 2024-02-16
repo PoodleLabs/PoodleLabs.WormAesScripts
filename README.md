@@ -1,3 +1,5 @@
+**NOTE: PoodleLabs is moving homes to a self-hosted GitHub alternative; these repositories have been left up for posterity, and will not be updated**
+
 # AES Scripts
 
 This repository contains three simple scripts for encrypting, decrypting, and shredding files in a Linux environment.
